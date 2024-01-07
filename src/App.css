@@ -370,11 +370,11 @@ ol {
   transform: translateY(0);
 }
 
-.my-slider-box-1 .swiper-slide {
+.my-slider-box-1 .slider-slide {
   overflow: hidden;
 }
 
-.my-slider-box-1 .swiper-slide > img {
+.my-slider-box-1 .slider-slide > img {
   width: 100%;
   height: 100%;
   display: block;
@@ -386,7 +386,7 @@ ol {
   transform: scale(1);
 }
 
-.my-slider-box-1 .swiper-slide {
+.my-slider-box-1 .slider-slide {
   height: calc(50vh);
 }
 

@@ -18,38 +18,38 @@ const Slick: React.FC = () => {
     <div className="top-slider con-min-width">
       <div className="con">
         <div className="my-slider-box-1">
-          <div className="swiper-container">
-            <div className="swiper-wrapper">
+          <div className="slick-container">
+            <div className="slick-wrapper">
               <Slider {...settings}>
-                <div className="swiper-slide">
+                <div className="slider-slide">
                   <div className="my-slider-box-1__prod-name">배고파 1</div>
                   <img src="https://picsum.photos/id/1/1500/600" alt="" />
                 </div>
-                <div className="swiper-slide">
+                <div className="slider-slide">
                   <div className="my-slider-box-1__prod-name">배고파 2</div>
                   <img src="https://picsum.photos/id/2/1500/600" alt="" />
                 </div>
-                <div className="swiper-slide">
+                <div className="slider-slide">
                   <div className="my-slider-box-1__prod-name">배고파 3</div>
                   <img src="https://picsum.photos/id/3/1500/600" alt="" />
                 </div>
-                <div className="swiper-slide">
+                <div className="slider-slide">
                   <div className="my-slider-box-1__prod-name">배고파 4</div>
                   <img src="https://picsum.photos/id/4/1500/600" alt="" />
                 </div>
-                <div className="swiper-slide">
+                <div className="slider-slide">
                   <div className="my-slider-box-1__prod-name">배고파 5</div>
                   <img src="https://picsum.photos/id/5/1500/600" alt="" />
                 </div>
-                <div className="swiper-slide">
+                <div className="slider-slide">
                   <div className="my-slider-box-1__prod-name">배고파 6</div>
                   <img src="https://picsum.photos/id/6/1500/600" alt="" />
                 </div>
-                <div className="swiper-slide">
+                <div className="slider-slide">
                   <div className="my-slider-box-1__prod-name">배고파 7</div>
                   <img src="https://picsum.photos/id/7/1500/600" alt="" />
                 </div>
-                <div className="swiper-slide">
+                <div className="slider-slide">
                   <div className="my-slider-box-1__prod-name">배고파 8</div>
                   <img src="https://picsum.photos/id/8/1500/600" alt="" />
                 </div>
