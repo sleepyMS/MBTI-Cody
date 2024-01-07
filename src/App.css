@@ -13,7 +13,6 @@ body,
 .App {
   width: 100%;
   height: 100%;
-  overflow: hidden;
 }
 
 ul,
@@ -344,4 +343,71 @@ ol {
   transform: translateY(0);
 }
 /* top-menu 끝 */
+
+/* slider 시작 */
+.top-slider {
+  margin-top: 170px;
+}
+
+.my-slider-box-1 {
+  margin: 100px;
+}
+
+.my-slider-box-1__prod-name {
+  position: absolute;
+  top: 0;
+  background-color: red;
+  color: black;
+  padding: 10px;
+  z-index: 1;
+  transform: translateY(-100%);
+  transition: transform 1s;
+  border-radius: 0 0 10px 0;
+  font-weight: normal;
+}
+
+.my-slider-box-1 .slick-slide.slick-current .my-slider-box-1__prod-name {
+  transform: translateY(0);
+}
+
+.my-slider-box-1 .swiper-slide {
+  overflow: hidden;
+}
+
+.my-slider-box-1 .swiper-slide > img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  transform: scale(1.2);
+  transition: transform 10s;
+}
+
+.my-slider-box-1 .slick-slide.slick-current > img {
+  transform: scale(1);
+}
+
+.my-slider-box-1 .swiper-slide {
+  height: calc(50vh);
+}
+
+/* .my-slider-box-1 .swiper-button-next {
+  right: calc(-10%);
+  color: black;
+}
+
+.my-slider-box-1 .swiper-button-prev {
+  left: calc(-10%);
+  color: black;
+}
+
+.my-slider-box-1 .swiper-button-next:hover {
+  color: red;
+}
+
+.my-slider-box-1 .swiper-button-prev:hover {
+  color: red;
+} */
+/* slider 끝 */
+
+
 /* 커스텀 끝 */

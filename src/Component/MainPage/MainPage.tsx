@@ -3,6 +3,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCat } from "@fortawesome/free-solid-svg-icons";
 import Sidebar from '../Sidebar/Sidebar';
 import SelecMBTI from '../SelectMBTI/SelectMBTI'
+import Slider from '../Slick/Slick';
+import Slick from '../Slick/Slick';
 
 const MainPage: React.FC = () => {
   return (
@@ -20,7 +22,7 @@ const MainPage: React.FC = () => {
 
         <Sidebar />
         <SelecMBTI />
-        
+        <Slick />
     </div>
   )
 }
